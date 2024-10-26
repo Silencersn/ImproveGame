@@ -65,7 +65,7 @@ Magic Storage开源链接: https://github.com/blushiemagic/MagicStorage
 #### 参数
 - `Item` 要获取弹药链序列的物品实例
 #### 返回值
-- `TagCompound` 以TagCompound形式存储的弹药链数据，数据读取方式参考AmmoChain.cs和ItemTypeData.cs。如果物品没有弹药链，返回 `null`
+- `TagCompound` 以TagCompound形式存储的弹药链数据，数据读取方式参考 [AmmoChain.cs](Content\Functions\ChainedAmmo\AmmoChain.cs) 和 [ItemTypeData.cs](Core\ItemTypeData.cs)。如果物品没有弹药链，返回 `null`
 
 ### GetUniversalAmmoId
 获取“任意弹药”物品的ID，这是一个用于弹药链中，表示该位置弹药任意的物品，搭配弹药链使用
